@@ -15,7 +15,6 @@ A proposta foi criar uma solução funcional e prática, priorizando a lógica d
 ## 🛠️ Tecnologias Utilizadas
 
 - Python  
-- Pandas  
 - JavaScript  
 - HTML  
 - CSS  
