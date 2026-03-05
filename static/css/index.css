@@ -1,0 +1,67 @@
+body {
+  font-family: "Caveat Brush", cursive;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== TOPO (IMAGEM + H1 + BOTÃO) ===== */
+.topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* distribui logo, título e botão */
+  margin: 10px 20px;
+}
+
+.logo {
+  width: 80px;
+}
+
+h1 {
+  color: #333;
+  margin: 0;
+  text-align: center;
+  flex: 1; /* ocupa espaço central */
+}
+
+/* ===== TABELA ===== */
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 30px auto;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+/* ===== BOTÕES ===== */
+button {
+  padding: 6px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.novo {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.excluir {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+h2{
+    margin-left: 20px; 
+}

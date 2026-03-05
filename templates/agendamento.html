@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Novo Agendamento</title>
+
+  <link rel="stylesheet" href="/static/css/agendamento.css">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+  <script src="/static/js/agendamento.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Botão de voltar -->
+    <button class="voltar" onclick="voltarInicio()">←</button>
+
+    <h1>Novo Agendamento</h1>
+
+    <form id="agendamentoForm">
+      <!-- Primeira linha: Cliente -->
+      <div class="linha">
+        <input type="text" id="nomeCliente" placeholder="Nome do Cliente" required>
+        <input type="email" id="emailCliente" placeholder="Email do Cliente" required>
+        <input type="text" id="telefoneCliente" placeholder="Telefone do Cliente" required>
+        <input type="text" id="marcaVeiculo" placeholder="Marca do Veículo" required>
+      </div>
+
+      <!-- Segunda linha: Veículo -->
+      <div class="linha">
+        <input type="text" id="modeloVeiculo" placeholder="Modelo" required>
+        <input type="number" id="anoVeiculo" placeholder="Ano" required>
+      </div>
+
+      <!-- Terceira linha: Serviço e Data -->
+      <div class="linha">
+        <input type="text" id="tipoServico" placeholder="Serviço" required>
+        <input type="date" id="dataHora" required>
+      </div>
+
+      <!-- Botão -->
+      <button type="submit">Agendar</button>
+    </form>
+  </div>
+</body>
+</html>
