@@ -48,11 +48,6 @@ Mais do que apenas desenvolver um sistema, este projeto teve como foco reforçar
 
 ---
 
-## 📷 Demonstração
-
-*(Você pode adicionar prints do sistema aqui depois)*
-
----
 
 ## 👨‍💻 Autor
 
